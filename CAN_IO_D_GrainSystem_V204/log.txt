@@ -1,0 +1,56 @@
+
+>> in "C:\Users\Utente\Desktop\CAN_IO_D_GrainSystem_V204\src\..\user_code.c", line 124, col 28, pos 3611
+ os_eeprom_read_data(0, &ee.b[0], EEPROM_SIZE);
+                           ^
+WARNING C1825: Indirection to different types ('signed char *' instead of 'unsigned char *')
+
+>> in "C:\Users\Utente\Desktop\CAN_IO_D_GrainSystem_V204\src\..\user_code.c", line 124, col 2, pos 3585
+ os_eeprom_read_data(0, &ee.b[0], EEPROM_SIZE);
+ ^
+WARNING C1420: Result of function-call is ignored
+
+>> in "C:\Users\Utente\Desktop\CAN_IO_D_GrainSystem_V204\src\..\user_code.c", line 158, col 30, pos 4206
+  os_eeprom_write_data(0, &ee.b[0], EEPROM_SIZE);
+                             ^
+WARNING C1825: Indirection to different types ('signed char *' instead of 'unsigned char *')
+
+>> in "C:\Users\Utente\Desktop\CAN_IO_D_GrainSystem_V204\src\..\user_code.c", line 158, col 3, pos 4179
+  os_eeprom_write_data(0, &ee.b[0], EEPROM_SIZE);
+  ^
+WARNING C1420: Result of function-call is ignored
+
+>> in "C:\Users\Utente\Desktop\CAN_IO_D_GrainSystem_V204\src\..\user_code.c", line 1314, col 37, pos 53992
+    bios_can_send(CAN_BUS_1, &tx_msg);
+                                    ^
+WARNING C1801: Implicit parameter-declaration for 'bios_can_send'
+
+>> in "C:\Users\Utente\Desktop\CAN_IO_D_GrainSystem_V204\src\..\user_code.c", line 1314, col 5, pos 53960
+    bios_can_send(CAN_BUS_1, &tx_msg);
+    ^
+WARNING C1420: Result of function-call is ignored
+
+>> in "C:\Users\Utente\Desktop\CAN_IO_D_GrainSystem_V204\src\..\user_code.c", line 1342, col 29, pos 54471
+ cicloComunicazioneBaseCAN();
+                            ^
+WARNING C1858: Partial implicit parameter declaration
+
+>> in "C:\Users\Utente\Desktop\CAN_IO_D_GrainSystem_V204\src\..\user_code.c", line 1403, col 32, pos 55927
+    os_eeprom_write_data(0, &ee.b[0], EEPROM_SIZE);
+                               ^
+WARNING C1825: Indirection to different types ('signed char *' instead of 'unsigned char *')
+
+>> in "C:\Users\Utente\Desktop\CAN_IO_D_GrainSystem_V204\src\..\user_code.c", line 1403, col 5, pos 55900
+    os_eeprom_write_data(0, &ee.b[0], EEPROM_SIZE);
+    ^
+WARNING C1420: Result of function-call is ignored
+
+>> in "C:\Users\Utente\Desktop\CAN_IO_D_GrainSystem_V204\src\..\user_code.c", line 1937, col 30, pos 71780
+  os_eeprom_write_data(0, &ee.b[0], EEPROM_SIZE);
+                             ^
+WARNING C1825: Indirection to different types ('signed char *' instead of 'unsigned char *')
+
+>> in "C:\Users\Utente\Desktop\CAN_IO_D_GrainSystem_V204\src\..\user_code.c", line 1937, col 3, pos 71753
+  os_eeprom_write_data(0, &ee.b[0], EEPROM_SIZE);
+  ^
+WARNING C1420: Result of function-call is ignored
+
